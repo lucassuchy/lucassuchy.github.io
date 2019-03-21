@@ -30,24 +30,7 @@
 		    );
         });
 
-        /*function setTweet(text)
-        {
-			var myDiv = document.getElementById('tweetStuff');
 
-			if (myDiv)
-			{
-				var anchor = document.createElement('a');
-				anchor.setAttribute('href', "https://twitter.com/intent/tweet?text=" + escape(text));
-				anchor.setAttribute('class', 'twitter-share-button');
-				anchor.setAttribute('data-lang', 'en');
-				anchor.setAttribute('data-url','http://inf.ufrgs.br/~morprates/acabasemestre');
-				anchor.setAttribute('data-hashtags','acabasemestre');
-				anchor.setAttribute('data-size','medium');
-				myDiv.appendChild(anchor);
-
-				twttr.widgets.load();
-			}
-		}*/
 
         function startTime()
         {
@@ -138,28 +121,7 @@
 		}
 
 	</script>
- 	<!--
-	<script>
-	window.twttr = (function(d, s, id)
-		{
-			var js, fjs = d.getElementsByTagName(s)[0],
-    		t = window.twttr || {};
-  			if (d.getElementById(id)) return t;
-  			js = d.createElement(s);
-  			js.id = id;
-  			js.src = "https://platform.twitter.com/widgets.js";
-  			fjs.parentNode.insertBefore(js, fjs);
- 
-  			t._e = [];
-  			t.ready = function(f) 
-  			{
-  				t._e.push(f);
-  			};
- 
-  			return t;
-		}(document, "script", "twitter-wjs"));
-	</script>
-	-->
+
 
 </head>
  
@@ -215,7 +177,7 @@
 						<table cellpadding="0" cellspacing="0" style="width:800px;">
 						<tbody>
 							<tr>
-								<td><div style="font-size:300%; color:LightSlateGray ; padding: 10px;">progresso: </div></td>
+								<td><div style="font-size:300%; color:LightSlateGray ; padding: 10px;">Progresso: </div></td>
 								<td><div id="progress_percentage" style="font-size:300%; color:LightCoral; padding: 10px;"></div></td>
 							</tr>
 							<tr>
